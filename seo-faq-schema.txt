@@ -1,0 +1,41 @@
+<!-- Swipelisten FAQ Schema: paste this above </head> in index.html -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is an audiobook speed calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "An audiobook speed calculator shows how long an audiobook, podcast, course or lecture will take at different playback speeds such as 1.25x, 1.5x or 2x."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long is a 10 hour audiobook at 1.5x speed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A 10 hour audiobook at 1.5x speed takes about 6 hours and 40 minutes to finish."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much time does 2x speed save?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Listening at 2x speed cuts the listening time in half. A 12 hour audiobook would take about 6 hours at 2x speed."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use this calculator for podcasts and YouTube videos?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. Swipelisten can be used for audiobooks, podcasts, YouTube videos, online courses and lectures."
+      }
+    }
+  ]
+}
+</script>

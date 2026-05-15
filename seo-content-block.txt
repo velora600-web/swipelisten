@@ -1,0 +1,14 @@
+<!-- SEO content block: paste this above the footer section in index.html -->
+<section class="section">
+  <h2>How to use the audiobook speed calculator</h2>
+  <div class="mini">
+    <p>
+      Enter the original length of your audiobook, podcast, course or lecture, then choose a playback speed.
+      Swipelisten instantly calculates your adjusted listening time, time saved and estimated finish time.
+    </p>
+    <p style="margin-top:12px">
+      This is useful for anyone listening at 1.25x, 1.5x, 1.75x or 2x speed and wanting to plan study,
+      productivity sessions, commutes or audiobook listening goals.
+    </p>
+  </div>
+</section>
