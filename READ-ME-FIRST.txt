@@ -1,0 +1,20 @@
+SWIPELISTEN SEO PACK
+
+UPLOAD THESE TO GITHUB ROOT:
+1. sitemap.xml
+2. robots.txt
+
+ADD TO index.html:
+1. Copy everything from seo-faq-schema.txt
+2. Paste it above </head> in index.html
+
+OPTIONAL SEO CONTENT:
+1. Copy everything from seo-content-block.txt
+2. Paste it above the footer in index.html
+
+AFTER UPLOADING:
+1. Commit changes in GitHub
+2. Wait for Netlify to redeploy
+3. Go to Google Search Console
+4. Add property: https://swipelisten.com
+5. Submit sitemap: https://swipelisten.com/sitemap.xml
