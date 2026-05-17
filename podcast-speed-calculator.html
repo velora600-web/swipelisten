@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Podcast Speed Calculator | Swipelisten</title>
+
+  <meta name="description"
+    content="Calculate podcast listening time at different playback speeds." />
+
+  <style>
+    body {
+      background: #061326;
+      color: white;
+      font-family: Arial, sans-serif;
+      padding: 24px;
+    }
+
+    .calculator {
+      background: #101b2d;
+      padding: 24px;
+      border-radius: 24px;
+      margin-top: 24px;
+    }
+
+    input {
+      width: 100%;
+      padding: 14px;
+      margin-top: 12px;
+      border-radius: 12px;
+      border: none;
+      font-size: 18px;
+    }
+
+    button {
+      width: 100%;
+      padding: 14px;
+      margin-top: 16px;
+      border-radius: 12px;
+      border: none;
+      background: #3b82f6;
+      color: white;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Podcast Speed Calculator</h1>
+
+<p>Calculate podcast listening time at different playback speeds.</p>
+
+<div class="calculator">
+
+  <input type="number" placeholder="Hours" id="hours">
+  <input type="number" placeholder="Minutes" id="minutes">
+
+  <button onclick="calculateTime()">Calculate</button>
+
+  <h2 id="result"></h2>
+
+</div>
+
+<script>
+function calculateTime() {
+
+  let hours = parseFloat(document.getElementById('hours').value) || 0;
+  let minutes = parseFloat(document.getElementById('minutes').value) || 0;
+
+  let totalMinutes = (hours * 60) + minutes;
+
+  let speed = 1.5;
+
+  let newTime = totalMinutes / speed;
+
+  let newHours = Math.floor(newTime / 60);
+  let remainingMinutes = Math.round(newTime % 60);
+
+  document.getElementById('result').innerText =
+    "At 1.5x speed: " +
+    newHours + "h " +
+    remainingMinutes + "m";
+}
+</script>
+
+</body>
+</html>
